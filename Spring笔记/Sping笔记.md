@@ -64,7 +64,7 @@ Maven：
 
 ## 1.3、组成
 
-![image-20191206113513363](/image-20191206113513363.png)
+![image-20191206113513363](https://gitee.com/venture_git/PicGo-CloudImg/raw/master/img/20210724130017.png)
 
 
 
@@ -72,7 +72,7 @@ Maven：
 
 在Spring的官网有这个介绍：现代化的Java开发！说白了就是基于Spring开发！
 
-![image-20191206113717441](./image-20191206113717441.png)
+![image-20191206113717441](https://gitee.com/venture_git/PicGo-CloudImg/raw/master/img/20210724130022.png)
 
 
 
@@ -104,7 +104,7 @@ Maven：
 
 我们使用一个Set接口实现，已经发生了革命性的变化！
 
-![image-20191206122027709](./image-20191206122027709.png)
+![image-20191206122027709](https://gitee.com/venture_git/PicGo-CloudImg/raw/master/img/20210724130027.png)
 
 
 
@@ -122,7 +122,7 @@ public void setUserDao(UserDao userDao) {
 
 这种思想，从本质上解决了问题，我们程序员不用再去管理对象的创建了。系统的耦合性大大降低，可以更加专注的在业务的实现上！这是IOC的原型！
 
-![image-20191206122053933](./image-20191206122053933.png)
+![image-20191206122053933](https://gitee.com/venture_git/PicGo-CloudImg/raw/master/img/20210724130031.png)
 
 ### IOC本质
 
@@ -521,7 +521,7 @@ name:也是别名，而且name可以同时取多个别名
 
 官方解释：
 
-![image-20191206172852832](./image-20191206172852832.png)
+![image-20191206172852832](https://gitee.com/venture_git/PicGo-CloudImg/raw/master/img/20210724130042.png)
 
 xml：
 
@@ -563,7 +563,7 @@ xmlns:c="http://www.springframework.org/schema/c"
 
 ## 6.4、bean的作用域
 
-![image-20191206184244344](./image-20191206184244344.png)
+![image-20191206184244344](https://gitee.com/venture_git/PicGo-CloudImg/raw/master/img/20210724130048.png)
 
 1. 单例模式（Spring默认机制）
 
@@ -738,7 +738,7 @@ private Dog dog;
 
 在Spring4之后，要使用注解开发，必须要保证AOP包已经导入了
 
-![image-20191209152153995](./image-20191209152153995.png)
+![image-20191209152153995](https://gitee.com/venture_git/PicGo-CloudImg/raw/master/img/20210724130055.png)
 
 使用注解需要导入context约束，增加注解的支持!
 
@@ -1011,7 +1011,7 @@ public class MyTest {
 
 聊聊AOP
 
-![image-20191210134209304](./image-20191210134209304.png)
+![image-20191210134209304](https://gitee.com/venture_git/PicGo-CloudImg/raw/master/img/20210724130102.png)
 
 
 
@@ -1044,7 +1044,7 @@ public class MyTest {
 
 AOP意为：面向切面编程，通过预编译方式和运行期动态代理实现程序功能的统一维护的一种技术。AOP是OOP的延续，是软件开发中的一个热点，也是Spring框架中的一个重要内容，是函数式编程的一种衍生范型。利用AOP可以对业务逻辑的各个部分进行隔离，从而使得业务逻辑部分之间的耦合度降低，提高程序的可重用性，同时提高了开发的效率。
 
-![image-20191210172248020](./image-20191210172248020.png)
+![image-20191210172248020](https://gitee.com/venture_git/PicGo-CloudImg/raw/master/img/20210724130109.png)
 
 ## 11.2、AOP在Spring中的作用
 
